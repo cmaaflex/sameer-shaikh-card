@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll(".actions a").forEach((el,i)=>{el.style.opacity="0";el.style.transform="translateY(12px)";setTimeout(()=>{el.style.transition="opacity .4s ease,transform .4s ease,box-shadow .2s";el.style.opacity="1";el.style.transform="translateY(0)"},250+i*90)})});
